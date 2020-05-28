@@ -1,5 +1,5 @@
 # Bacon_Number
-### **Problem Overview**### <br/><br/>
+### **Problem Overview** <br/><br/>
 This project will use the BRIDGES API with an actor/movie dataset from IMDB. You be building a graph using BRIDGES elements, which will enable you to visualize the network of connections between actors and movies. Note that the BRIDGES visualization will also be a means to debug your program, as it will let you view your data structure and its contents after each operation. The actor/movie dataset has been curated from IMDB as a text file containing a set of actor/movie pairs, one pair per line.
 
 The driver will be managing the actors and movies details so you can focus on operations related to the graph.
