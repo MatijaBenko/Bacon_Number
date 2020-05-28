@@ -1,0 +1,34 @@
+AddVertex Cary_Grant
+AddVertex Denzel_Washington
+Visualize
+AddActor Billy_Bob_Thornton
+AddActor Adam_Sandler_(I)
+AddActor Bill_Murray_(I)
+AddActor Kevin_Bacon_(I)
+Visualize
+VisualizeVertex Billy_Bob_Thornton red
+VisualizeVertex Adam_Sandler_(I) yellow
+VisualizeVertex Bill_Murray_(I) yellow
+VisualizeVertex Kevin_Bacon_(I) green
+VisualizeVertex Going_Overboard_(1989) yellow
+VisualizeEdge Billy_Bob_Thornton Going_Overboard_(1989) yellow
+VisualizeEdge Adam_Sandler_(I) Going_Overboard_(1989) yellow
+VisualizeVertex Saturday_Night_Live:_Game_Show_Parodies_(1998) yellow
+VisualizeEdge Adam_Sandler_(I) Saturday_Night_Live:_Game_Show_Parodies_(1998) yellow
+VisualizeEdge Bill_Murray_(I) Saturday_Night_Live:_Game_Show_Parodies_(1998) yellow
+VisualizeVertex Saturday_Night_Live_Christmas_(1999) yellow
+VisualizeEdge Adam_Sandler_(I) Saturday_Night_Live_Christmas_(1999) yellow
+VisualizeEdge Bill_Murray_(I) Saturday_Night_Live_Christmas_(1999) yellow
+VisualizeVertex Wild_Things_(1998) yellow
+VisualizeEdge Bill_Murray_(I) Wild_Things_(1998) yellow
+VisualizeEdge Kevin_Bacon_(I) Wild_Things_(1998) yellow
+VisualizeVertex She's_Having_a_Baby_(1988) yellow
+VisualizeEdge Bill_Murray_(I) She's_Having_a_Baby_(1988) yellow
+VisualizeEdge Kevin_Bacon_(I) She's_Having_a_Baby_(1988) yellow
+Visualize
+AddAll
+ResetVisualizer
+Visualize
+GetBaconNumber Adam_Sandler_(I) Billy_Bob_Thornton
+Visualize
+Quit
